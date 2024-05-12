@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/Users/mohdzohakhan/Aarish/app/.cxx/Debug/104m5v34/x86",
+  "command": "/Users/mohdzohakhan/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android33 --sysroot=/Users/mohdzohakhan/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dthepassageof2kings_EXPORTS -isystem /Users/mohdzohakhan/.gradle/caches/transforms-3/adcd4b1942c6ad30201fbc5553395736/transformed/games-activity-1.2.2/prefab/modules/game-activity/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/thepassageof2kings.dir/main.cpp.o -c /Users/mohdzohakhan/Aarish/app/src/main/cpp/main.cpp",
+  "file": "/Users/mohdzohakhan/Aarish/app/src/main/cpp/main.cpp"
+},
+{
+  "directory": "/Users/mohdzohakhan/Aarish/app/.cxx/Debug/104m5v34/x86",
+  "command": "/Users/mohdzohakhan/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android33 --sysroot=/Users/mohdzohakhan/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dthepassageof2kings_EXPORTS -isystem /Users/mohdzohakhan/.gradle/caches/transforms-3/adcd4b1942c6ad30201fbc5553395736/transformed/games-activity-1.2.2/prefab/modules/game-activity/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/thepassageof2kings.dir/AndroidOut.cpp.o -c /Users/mohdzohakhan/Aarish/app/src/main/cpp/AndroidOut.cpp",
+  "file": "/Users/mohdzohakhan/Aarish/app/src/main/cpp/AndroidOut.cpp"
+},
+{
+  "directory": "/Users/mohdzohakhan/Aarish/app/.cxx/Debug/104m5v34/x86",
+  "command": "/Users/mohdzohakhan/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android33 --sysroot=/Users/mohdzohakhan/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dthepassageof2kings_EXPORTS -isystem /Users/mohdzohakhan/.gradle/caches/transforms-3/adcd4b1942c6ad30201fbc5553395736/transformed/games-activity-1.2.2/prefab/modules/game-activity/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/thepassageof2kings.dir/Renderer.cpp.o -c /Users/mohdzohakhan/Aarish/app/src/main/cpp/Renderer.cpp",
+  "file": "/Users/mohdzohakhan/Aarish/app/src/main/cpp/Renderer.cpp"
+},
+{
+  "directory": "/Users/mohdzohakhan/Aarish/app/.cxx/Debug/104m5v34/x86",
+  "command": "/Users/mohdzohakhan/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android33 --sysroot=/Users/mohdzohakhan/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dthepassageof2kings_EXPORTS -isystem /Users/mohdzohakhan/.gradle/caches/transforms-3/adcd4b1942c6ad30201fbc5553395736/transformed/games-activity-1.2.2/prefab/modules/game-activity/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/thepassageof2kings.dir/Shader.cpp.o -c /Users/mohdzohakhan/Aarish/app/src/main/cpp/Shader.cpp",
+  "file": "/Users/mohdzohakhan/Aarish/app/src/main/cpp/Shader.cpp"
+},
+{
+  "directory": "/Users/mohdzohakhan/Aarish/app/.cxx/Debug/104m5v34/x86",
+  "command": "/Users/mohdzohakhan/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android33 --sysroot=/Users/mohdzohakhan/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dthepassageof2kings_EXPORTS -isystem /Users/mohdzohakhan/.gradle/caches/transforms-3/adcd4b1942c6ad30201fbc5553395736/transformed/games-activity-1.2.2/prefab/modules/game-activity/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/thepassageof2kings.dir/TextureAsset.cpp.o -c /Users/mohdzohakhan/Aarish/app/src/main/cpp/TextureAsset.cpp",
+  "file": "/Users/mohdzohakhan/Aarish/app/src/main/cpp/TextureAsset.cpp"
+},
+{
+  "directory": "/Users/mohdzohakhan/Aarish/app/.cxx/Debug/104m5v34/x86",
+  "command": "/Users/mohdzohakhan/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android33 --sysroot=/Users/mohdzohakhan/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dthepassageof2kings_EXPORTS -isystem /Users/mohdzohakhan/.gradle/caches/transforms-3/adcd4b1942c6ad30201fbc5553395736/transformed/games-activity-1.2.2/prefab/modules/game-activity/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/thepassageof2kings.dir/Utility.cpp.o -c /Users/mohdzohakhan/Aarish/app/src/main/cpp/Utility.cpp",
+  "file": "/Users/mohdzohakhan/Aarish/app/src/main/cpp/Utility.cpp"
+}
+]

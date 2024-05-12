@@ -1,0 +1,3 @@
+/Users/mohdzohakhan/Aarish/app/.cxx/Debug/104m5v34/x86/CMakeFiles/thepassageof2kings.dir
+/Users/mohdzohakhan/Aarish/app/.cxx/Debug/104m5v34/x86/CMakeFiles/edit_cache.dir
+/Users/mohdzohakhan/Aarish/app/.cxx/Debug/104m5v34/x86/CMakeFiles/rebuild_cache.dir

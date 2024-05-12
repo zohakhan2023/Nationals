@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/Users/mohdzohakhan/Aarish/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/mohdzohakhan/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/mohdzohakhan/Aarish/app/.cxx/Debug/104m5v34/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/mohdzohakhan/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/mohdzohakhan/Aarish/app/.cxx/Debug/104m5v34/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "thepassageof2kings::@6890427a1f51a3e7e1df": {
+      "artifactName": "thepassageof2kings",
+      "abi": "x86",
+      "output": "/Users/mohdzohakhan/Aarish/app/build/intermediates/cxx/Debug/104m5v34/obj/x86/libthepassageof2kings.so",
+      "runtimeFiles": []
+    }
+  }
+}

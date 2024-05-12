@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Will North Computer Club</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="terminal-container">
+        <pre id="terminal-output"></pre>
+    </div>
+    <div class="event-card">
+        <button class="terminal-button" onclick="clearTerminal()">Clear Terminal Output</button>
+    </div>
+    <div class="event-card">
+        <button><a href="http://willnorthcomputerclub.beehiiv.com/" class="terminal-button">Newsletter!</a></button>
+    </div>    
+    <div class="form-container">
+        <form id="membershipForm">
+            <h2>Membership Form</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+            <label for="gradeLevel">Grade Level:</label>
+            <input type="text" id="gradeLevel" name="gradeLevel" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" required>
+            <label for="interest">Interest in Joining:</label>
+            <textarea id="interest" name="interest" required></textarea>
+            <label for="experience">Prior Experience:</label>
+            <textarea id="experience" name="experience" required></textarea>
+            <label for="leadership">Leadership Interest:</label>
+            <textarea id="leadership" name="leadership" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>    
+    <script src="script.js"></script>
+</body>
+</html>

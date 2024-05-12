@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "type": "maven-run",
+            "name": "Maven-run configuration",
+            "mainClass": "",
+        }
+        
+        ,
+        
+    ]
+}

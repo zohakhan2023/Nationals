@@ -1,0 +1,64 @@
+[gd_scene load_steps=11 format=3 uid="uid://ku21bfphbk8u"]
+
+[ext_resource type="PackedScene" uid="uid://dklesavnowqya" path="res://Player/player.tscn" id="1_towm1"]
+[ext_resource type="PackedScene" uid="uid://dg7sbcdidfruf" path="res://World/GLB format/gravestone-bevel.glb" id="2_oq1mk"]
+[ext_resource type="PackedScene" uid="uid://b8m4o87wqhjo2" path="res://World/GLB format/pillar-obelisk.glb" id="3_yst62"]
+[ext_resource type="PackedScene" uid="uid://beqq2lujs34vu" path="res://World/GLB format/pine-fall.glb" id="4_j2nfb"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_shn0d"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_l7e0b"]
+size = Vector3(2000, 1, 2000)
+
+[sub_resource type="BoxMesh" id="BoxMesh_ri001"]
+size = Vector3(2000, 1, 2000)
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_dtxkg"]
+sky_top_color = Color(0.69051, 0.33244, 0.107531, 1)
+sky_horizon_color = Color(0.423008, 0.670889, 0.950028, 1)
+
+[sub_resource type="Sky" id="Sky_g6cv8"]
+sky_material = SubResource("ProceduralSkyMaterial_dtxkg")
+
+[sub_resource type="Environment" id="Environment_lr118"]
+background_mode = 2
+sky = SubResource("Sky_g6cv8")
+tonemap_mode = 1
+glow_enabled = true
+glow_normalized = true
+adjustment_enabled = true
+adjustment_brightness = 1.13
+adjustment_contrast = 1.08
+adjustment_saturation = 1.2
+
+[node name="Game" type="Node3D"]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+physics_material_override = SubResource("PhysicsMaterial_shn0d")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("BoxShape3D_l7e0b")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
+mesh = SubResource("BoxMesh_ri001")
+
+[node name="Player" parent="." instance=ExtResource("1_towm1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 433.46, 457.879, 770.629)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_lr118")
+
+[node name="gravestone-bevel2" parent="." instance=ExtResource("2_oq1mk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -730.622, 148.992, -442.318)
+
+[node name="pillar-obelisk2" parent="." instance=ExtResource("3_yst62")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 354.475, 179.232, -348.11)
+
+[node name="pine-fall2" parent="." instance=ExtResource("4_j2nfb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -454.605, 130.847, -515.614)
+
+[node name="pine-fall2" parent="pine-fall2" instance=ExtResource("4_j2nfb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 880.282, 130.847, 722.827)
+
+[node name="pine-fall2" parent="pine-fall2/pine-fall2" instance=ExtResource("4_j2nfb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -676.294, 130.847, 303.023)

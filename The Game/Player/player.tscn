@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://dklesavnowqya"]
+
+[ext_resource type="Script" path="res://Player/player.gd" id="1_dgeg4"]
+[ext_resource type="Script" path="res://Player/cam.gd" id="2_1wb5q"]
+[ext_resource type="PackedScene" uid="uid://dwdety0s6jcwc" path="res://World/GLB format/character-digger.glb" id="3_l6v41"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_a2ab1"]
+height = 1.35832
+
+[node name="Player" type="CharacterBody3D"]
+script = ExtResource("1_dgeg4")
+
+[node name="Cam" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.18378, -0.122653)
+script = ExtResource("2_1wb5q")
+
+[node name="SpringArm3D" type="SpringArm3D" parent="Cam"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.201757, 0)
+spring_length = 1.5
+
+[node name="Camera3D" type="Camera3D" parent="Cam/SpringArm3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.501845, 0)
+shape = SubResource("CapsuleShape3D_a2ab1")
+
+[node name="character-digger2" parent="." instance=ExtResource("3_l6v41")]
